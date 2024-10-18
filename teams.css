@@ -1,0 +1,516 @@
+*{
+    background-color: #141821;
+    margin:0;
+    font-size:1.2rem;
+    font-family:monospace ;
+    color:white;
+}
+body{
+    display:flex;
+    flex-direction: column;
+min-height:100vh;
+}
+.nav{
+    background-color: black;
+    width:100%;
+    height:75px;
+    display:flex;
+
+    align-items: center;
+    position:fixed;
+    top:0;
+
+}
+
+
+#box1{
+    display:flex;
+   background-color: black;
+    color:white;
+    height:100%;
+    width:300px;
+    
+}
+#logo{
+    background-color: black;
+}
+#box1 div{
+    background-color: black;
+    align-self:center;
+}
+#box1 h3{
+    background-color: black;
+    align-self:center;
+}
+
+#box2{
+display:flex;
+background-color: black;
+position:absolute;
+right:30px;
+
+}
+#box2 a{
+    display:inline-block;
+    text-decoration: none;
+    font-size:1.2rem;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    align-self:center;
+    margin-top:28px;
+    margin-left:60px;  
+    
+
+}
+a{
+    transition-property:all;
+    transition-duration:0.1s;
+}
+a:hover{
+    border: 2px solid rgba(255,255,255,0.7);
+    
+}
+/* main */
+main{
+    margin-top:80px;
+}
+#head{
+    text-align:center;
+    color:rgb(135,206,235);
+    font-size:2rem;
+}
+.hdphts div{
+    display: inline-block;
+}
+.hdphts{
+    display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-content: center;
+align-items:center;
+flex-wrap:wrap;
+text-align:center;
+}
+.h{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width:20%;
+    height:450px;
+    margin:2%;
+    border-width:5px;
+    border-color:rgb(135,206,235);
+    border-style:solid;
+}
+.h a{
+    display:inline-block;
+}
+.h img{
+    width:100%;
+    height:auto;
+}
+.h h3{
+    color:rgb(135,206,235);
+}
+#h1{
+    background-image: url("Aadish\ Jain.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+#h2{
+    background-image: url("Akash\ Manna.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+
+
+#h3{
+    background-image: url("G.M.M.Prabhash.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+
+
+#h4{
+    background-image: url("#");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+
+
+#h5{
+    background-image: url("Bhavesh\ Pabnani.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+
+#h6{
+    background-image: url("Parijat\ Sutradhar.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+#h7{
+    background-image: url("Swadhin\ Kumar\ biswal.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+#h8{
+    background-image: url("Ujjwal\ Agarwal.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+#h9{
+    background-image: url("shashi\ bhushan.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+#h10{
+    background-image: url("ayushi\ pradhan.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+#h11{
+    background-image: url("Makrawat\ Singh.jpg");
+    background-size: cover;
+    width:80%;
+    margin:10%;
+    height:300px;
+}
+#found{
+    text-align:center;
+    color:#3dc4d4;
+    font-size:2rem;
+}
+.founders{
+    display:flex;
+justify-content: space-evenly;
+align-content: center;
+align-items:center;
+text-align: center;
+}
+
+.f{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width:20%;
+    height:400px;
+    margin:2%;
+    border-width:5px;
+    border-color:rgb(135,206,235);
+    border-style:solid;
+}
+.f a{
+    display: inline-block;
+
+}
+.f div{
+    display: inline-block;
+}
+#f1{
+    background-image: url("Suraj\ Gupta.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#f2{
+    background-image: url("Bhushan\ Nakade.png");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#adv{
+    text-align:center;
+    color:#3dc4d4;
+    font-size:2rem;
+}
+
+.advisors{
+    display:flex;
+    flex-wrap:wrap;
+justify-content: space-evenly;
+align-content: center;
+align-items:center;
+text-align: center;
+}
+
+.ad{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width:20%;
+    height:400px;
+    margin:2%;
+    border-width:5px;
+    border-color:rgb(135,206,235);
+    border-style:solid;
+}
+.ad a{
+    display: inline-block;
+}
+.ad div{
+    display: inline-block;
+}
+#ad1{
+    background-image: url("Kunal\ Agarwal.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#ad2{
+    background-image: url("Sumit\ Kumar\ Sharma.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#ad3{
+    background-image: url("Priyanshu\ Ranjan.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#ad4{
+    background-image: url("Hemanth\ Sai\ Krishna.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#ad5{
+    background-image: url("Soukhin\ Nayek.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#ad6{
+    background-image: url("Neeraj\ Patel.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#Teams{
+    text-align:center;
+    color:#3dc4d4;
+    font-size:2rem;
+}
+.bar{
+    display:flex;
+    width:100%;
+
+justify-content: space-around;
+}
+.bar button{
+    border-radius:10px;
+    border:1px solid #3dc4d4;
+    transition-property:all;
+transition-duration: infinite;
+transition-timing-function:steps(0);
+}
+.bar a{
+    border:none;
+    text-decoration: none;
+    transition-property:all;
+transition-duration: infinite;
+transition-timing-function:steps(0);
+}
+.bar button:hover{
+    background-color:#3dc4d4 ;
+}
+.bar a:hover{
+    background-color:#3dc4d4 ;
+}
+.bar button:active{
+    background-color: #3dc4d4;
+}
+#TTh{
+    font-size:2rem;
+    margin-top:20px;
+}
+.Techteam{
+    display:flex;
+    flex-wrap:wrap;
+justify-content: space-evenly;
+align-content: center;
+align-items:center;
+text-align: center;
+}
+.TT{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width:20%;
+    height:400px;
+    margin:2%;
+    border-width:5px;
+    border-color:rgb(135,206,235);
+    border-style:solid;
+}
+.TT a{
+    display:inline-block;
+}
+.TT div{
+    display: inline-block;
+}
+.TT p{
+    display:inline-block;
+}
+#TT1{
+    background-image: url("Om\ Singh\ Jadon.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#TT2{
+    background-image: url("Arumilli\ Thanvi\ Sree.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#TT3{
+    background-image: url("Shaurya\ Raj.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#TT4{
+    background-image: url("Uditangshu\ Chakraborty.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#TT5{
+    background-image: url("Sudhanshu.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#TT6{
+    background-image: url("Harsh\ Dalmia.jpeg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#TT7{
+    background-image: url("Shubhraj\ Singh\ Dodiya.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#TT8{
+    background-image: url("Jayanshu\ Jena.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#TT9{
+    background-image: url("Zoya\ Alam.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#TT10{
+    background-image: url("Aliva\ Patro.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#TT11{
+    background-image: url("Bikram\ Ghuku.jpeg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+
+
+
+hr{
+    color:white;
+}
+
+/* footer */
+footer{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+background-color: rgba(0,0,0,0.85);
+}
+footer div{
+    display:inline-block;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(0,0,0,0.85);
+}
+footer h3{
+    background-color: rgba(0,0,0,0.85);
+}
+
+footer a{
+    text-decoration:white underline;
+    color:orange;
+    background-color: rgba(0,0,0,0.85);
+}
+
+footer img{
+    background-color: rgba(0,0,0,0.85);
+    width:18%;
+    height:80px;
+}
+footer pre{
+    position:relative;
+    right:10px;
+    background-color: rgba(0,0,0,0.85);
+}
+
+#address{
+    display:block;
+    align-items: left;
+}

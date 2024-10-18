@@ -1,0 +1,279 @@
+*{
+    background-color: #141821;
+    margin:0;
+    font-size:1.2rem;
+    font-family:monospace ;
+    color:white;
+}
+body{
+    display:flex;
+    flex-direction: column;
+min-height:100vh;
+}
+.nav{
+    background-color: black;
+    width:100%;
+    height:75px;
+    display:flex;
+
+    align-items: center;
+    position:fixed;
+    top:0;
+
+}
+
+
+#box1{
+    display:flex;
+   background-color: black;
+    color:white;
+    height:100%;
+    width:300px;
+    
+}
+#logo{
+    background-color: black;
+}
+#box1 div{
+    background-color: black;
+    align-self:center;
+}
+#box1 h3{
+    background-color: black;
+    align-self:center;
+}
+
+#box2{
+display:flex;
+background-color: black;
+position:absolute;
+right:30px;
+
+}
+#box2 a{
+    display:inline-block;
+    text-decoration: none;
+    font-size:1.2rem;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    align-self:center;
+    margin-top:28px;
+    margin-left:60px;  
+    
+
+}
+a{
+    transition-property:all;
+    transition-duration:0.1s;
+}
+a:hover{
+    border: 2px solid rgba(255,255,255,0.7);
+    
+}
+hr{
+    color:white;
+}
+main{
+    
+    margin-top:80px;
+}
+#Teams{
+    text-align:center;
+    color:#3dc4d4;
+    font-size:2rem;
+}
+.bar{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+
+justify-content: space-around;
+}
+.bar button{
+    border-radius:10px;
+    border:1px solid #3dc4d4;
+    transition-property:all;
+transition-duration: infinite;
+transition-timing-function:steps(0);
+}
+.bar a{
+    border:none;
+    text-decoration: none;
+    transition-property:all;
+transition-duration: infinite;
+transition-timing-function:steps(0);
+}
+.bar button:hover{
+    background-color:#3dc4d4 ;
+}
+.bar a:hover{
+    background-color:#3dc4d4 ;
+}
+.bar button:active{
+    background-color: #3dc4d4;
+}
+#BCh{
+    font-size:2rem;
+    margin-top:20px;
+    text-align: center;
+}
+.BCT{
+    display:flex;
+    flex-wrap:wrap;
+justify-content: space-evenly;
+align-content: center;
+align-items:center;
+text-align: center;
+}
+.BC{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    width:20%;
+    height:400px;
+    margin:2%;
+    border-width:5px;
+    border-color:rgb(135,206,235);
+    border-style:solid;
+}
+.BC a{
+    display:inline-block;
+}
+.BC div{
+    display: inline-block;
+}
+.BC p{
+    display:inline-block;
+}
+#BC1{
+    background-image: url("Om\ Singh\ Jadon.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#BC2{
+    background-image: url("Kshitij\ Roy.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#BC3{
+    background-image: url("Shashank\ Pandya.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#BC4{
+    background-image: url("Shriya\ Sinha.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#BC5{
+    background-image: url("Aryan\ Yadav.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#BC6{
+    background-image: url("Komanabelli\ Balaji.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+#BC7{
+    background-image: url("Ashutosh\ Ranjan.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#BC8{
+    background-image: url("Bikram\ Ghuku.jpeg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#BC9{
+    background-image: url("Atreya\ Bordoloi.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#BC10{
+    background-image: url("Suryansh\ Singh\ Parihar.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#BC11{
+    background-image: url("Syed\ Nasif\ Hossain.jpg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+#BC12{
+    background-image: url("Arnab\ Jena.jpeg");
+    background-size:cover;
+    width:80%;
+    margin:10%;
+    height:350px;
+}
+
+
+
+/* footer */
+footer{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+background-color: rgba(0,0,0,0.85);
+}
+footer div{
+    display:inline-block;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(0,0,0,0.85);
+}
+footer h3{
+    background-color: rgba(0,0,0,0.85);
+}
+
+footer a{
+    text-decoration:white underline;
+    color:orange;
+    background-color: rgba(0,0,0,0.85);
+}
+
+footer img{
+    background-color: rgba(0,0,0,0.85);
+    width:18%;
+    height:80px;
+}
+footer pre{
+    position:relative;
+    right:10px;
+    background-color: rgba(0,0,0,0.85);
+}
+#address{
+    display:block;
+}

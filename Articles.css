@@ -1,0 +1,241 @@
+*{
+    background-color: #141821;
+    margin:0;
+    font-size:1.2rem;
+    font-family:monospace ;
+    color:white;
+}
+body{
+    display:flex;
+    flex-direction: column;
+min-height:100vh;
+}
+.nav{
+    background-color: black;
+    width:100%;
+    height:75px;
+    display:flex;
+
+    align-items: center;
+    position:fixed;
+    top:0;
+
+}
+
+
+#box1{
+    display:flex;
+   background-color: black;
+    color:white;
+    height:100%;
+    width:300px;
+    
+}
+#logo{
+    background-color: black;
+}
+#box1 div{
+    background-color: black;
+    align-self:center;
+}
+#box1 h3{
+    background-color: black;
+    align-self:center;
+}
+
+#box2{
+display:flex;
+background-color: black;
+position:absolute;
+right:30px;
+
+}
+#box2 a{
+    display:inline-block;
+    text-decoration: none;
+    font-size:1.2rem;
+    background-color: black;
+    color:white;
+    font-weight:bold;
+    align-self:center;
+    margin-top:28px;
+    margin-left:60px;  
+    
+
+}
+a{
+    transition-property:all;
+    transition-duration:0.1s;
+}
+a:hover{
+    border: 2px solid rgba(255,255,255,0.7);
+    
+}
+hr{
+    color:white;
+}
+/* main */
+main{
+    margin-top:80px;
+}
+.s1{
+    display:flex;
+    font-style:normal;
+}
+#a1{
+    display:flex;
+    margin-left:50px;
+flex-direction: column;
+justify-content: center;
+
+}
+#h1{
+   font-size: 120px; 
+   color:#00BFFF;
+   margin-top:50px;
+}
+#a1 h2{
+    font-weight:normal;
+    font-size:30px;
+    margin-bottom:10px;
+}
+#a2{
+    display:flex;
+    background-image:url("Articles.png");
+    background-size: cover;
+    width:35%;
+ height:500px;
+    margin:20px;
+    margin-right:70px;
+}
+.s2{
+    display:flex;
+    
+}
+.b1{
+    display:flex;
+    flex-direction: column;
+    margin-left:20px;
+    width:25%;
+    border-radius:10px;
+    height:500px;
+    background-color:rgb(0,49,83) ;
+transition-property: all;
+transition-duration: infinite;
+transition-timing-function: steps(0);
+}
+
+.b1 h3{
+    margin:20px 0 0 20px;
+    background-color: rgb(0,49,83);
+    color:#00BFFF
+}
+#gemlog img{
+    width:377px;
+    height:220px;
+    background-color:rgb(0,49,83) ;
+
+}
+.b1 h1{
+    background-color: rgb(0,49,83);
+    margin:10px;
+}
+
+.b1:hover{
+    border:2px solid #00BFFF;
+}
+.cont{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+    padding:0px;
+    align-items: center;
+    flex-direction: row;
+    h4{
+        color: #11e3fb;
+        align-self: flex-start;
+        padding:0px 0px 0px 7px;
+    }
+    img{
+        width:100%;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
+.art{
+    width:45%;
+    height:100px;
+    display:flex;
+    background-color: rgba(54,54,54,.4);
+    border:2px solid #11e3fb;
+    border-radius: 10px;
+    img{
+        width:100%;
+        height:100%;
+        background-color: transparent;
+    }
+    .img{
+        width:30%;
+        img{
+            width:100%;
+            height:100%;
+            border-radius: 10px;
+            background-color: transparent;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+.text{
+    background-color: transparent;
+    h4,p{
+        background-color: transparent;
+        font-size: .8rem;
+    }
+}
+.others{
+    width:70%;
+}
+/* footer */
+footer{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+background-color: rgba(0,0,0,0.85);
+}
+footer div{
+    display:inline-block;
+    display:flex;
+    flex-direction:column;
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(0,0,0,0.85);
+}
+footer h3{
+    background-color: rgba(0,0,0,0.85);
+}
+
+footer a{
+    text-decoration:white underline;
+    color:orange;
+    background-color: rgba(0,0,0,0.85);
+}
+
+footer img{
+    background-color: rgba(0,0,0,0.85);
+    width:18%;
+    height:80px;
+}
+footer pre{
+    position:relative;
+    right:10px;
+    background-color: rgba(0,0,0,0.85);
+}
+
+#address{
+    display:block;
+    align-items: left;
+}
